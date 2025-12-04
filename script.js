@@ -133,6 +133,7 @@ const translations = {
 
     skillsTitle: "Skills",
     skillsFrontend: "Front-end",
+    skillsFullStack: "Full Stack",
     skillsTools: "Ferramentas",
     skillsOther: "Outros",
 
@@ -196,7 +197,7 @@ const translations = {
     projectsSubtitle: "Projects that reflect my evolution as a developer, exploring programming logic, software structures and web applications.",
 
     skillsTitle: "Skills",
-    skillsFrontend: "Front-end",
+    skillsFullStack: "Full Stack",
     skillsTools: "Tools",
     skillsOther: "Other",
 
@@ -270,7 +271,7 @@ function changeLanguage(lang) {
 
   // Mostra a bandeira do idioma para o qual vai mudar
   document.getElementById("lang-toggle").textContent =
-    lang === "pt" ? "🇺🇸" : "🇧🇷";
+    lang === "pt" ? "🇺🇸" : "🇵🇹";
 }
 
 document.getElementById("lang-toggle").addEventListener("click", () => {

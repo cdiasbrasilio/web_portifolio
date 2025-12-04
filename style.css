@@ -461,6 +461,14 @@ body {
 }
 
 /* Responsividade */
+
+/* ============================================================
+   Breakpoints usados no projeto
+   - 900px: Tablet / telas médias
+   - 700px: Mobile médio (menu hamburguer, 1 coluna em grids)
+   - 480px: Mobile pequeno (tipografia reduzida, espaçamentos menores)
+   ============================================================ */
+
 @media (max-width: 900px) {
   .hero-content {
     grid-template-columns: minmax(0, 1fr);
@@ -495,13 +503,28 @@ body {
     background: rgba(15, 23, 42, 0.98);
     border-radius: 12px;
     border: 1px solid rgba(148, 163, 184, 0.35);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(-10px);
   }
 
   .nav.open {
     display: flex;
+    opacity: 1;
+    transform: translateY(0);
   }
 
   .nav-toggle {
+    display: block;
+  }
+
+  .nav-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    display: none;
+  }
+  .nav.open + .nav-overlay {
     display: block;
   }
 
@@ -529,4 +552,50 @@ body {
 
 .lang-btn:hover {
   transform: scale(1.15);
+}
+
+/* Melhorar a Responsividade em telas muito pequenas*/
+@media (max-width: 480px) {
+
+  .skills-group li {
+    font-size: 0.8rem; /* reduz fonte em mobile */
+  }
+
+  .footer {
+    padding: 1.5rem 0;
+  }
+  .footer-content {
+    gap: 0.6rem;
+    font-size: 0.75rem;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+  .hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .section {
+    padding: 2rem 0;
+  }
+
+  .project-card,
+  .hero-card {
+    padding: 0.8rem;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+  }
+  .project-title {
+    font-size: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
 }
