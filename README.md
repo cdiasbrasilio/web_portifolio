@@ -1,32 +1,32 @@
-# 🌐 Portfólio Pessoal — Cristiano Brasilio
+# 🌐 Personal Portfolio — Cristiano Brasilio
 
-Este é o meu portfólio pessoal, desenvolvido para apresentar minha trajetória, principais competências e projetos práticos nas áreas de desenvolvimento web e software.  
-O site foi construído com foco em simplicidade, clareza e fácil manutenção.
+This is my personal portfolio, developed to showcase my journey, main skills, and practical projects in web and software development.  
+The site was built with a focus on simplicity, clarity, and easy maintenance.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Technologies Used
 
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **Responsividade**
-- **Tradução dinâmica (PT/EN)**
+- **Responsive Design**
+- **Dynamic Translation (PT/EN)**
 
 ---
 
-## 🧩 Funcionalidades
+## 🧩 Features
 
-✅ Layout limpo e responsivo  
-✅ Seção de projetos gerada dinamicamente via JavaScript  
-✅ Sistema de tradução entre **Português** e **Inglês**  
-✅ Destaque para tecnologias utilizadas em cada projeto  
-✅ Links diretos para repositórios no GitHub  
-✅ Estrutura simples e fácil de expandir  
+✅ Clean and responsive layout  
+✅ Projects section generated dynamically via JavaScript  
+✅ Translation system between **Portuguese** and **English**  
+✅ Highlight of technologies used in each project  
+✅ Direct links to GitHub repositories  
+✅ Simple and easy-to-expand structure  
 
 ---
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
 
 ```
 /
@@ -38,6 +38,17 @@ O site foi construído com foco em simplicidade, clareza e fácil manutenção.
 
 ---
 
-## 📄 Licença
+## 📌 Recent Updates
 
-Este projeto é de uso pessoal, mas você pode utilizá-lo como referência para criar o seu próprio portfólio.
+### 05/12/2025
+- Improved responsiveness in hero, skills and footer sections
+- Adjusted typography for small screens
+- Reduced padding in cards on mobile
+- Added documentation for CSS breakpoints
+- Fixed dynamic translation of the **"Code on GitHub"** link in projects
+
+---
+
+## 📄 License
+
+This project is for personal use, but you may use it as a reference to create your own portfolio.
