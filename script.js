@@ -81,7 +81,7 @@ function renderProjects() {
       }
           ${project.repoUrl
         ? `<a href="${project.repoUrl}" class="project-link" target="_blank" rel="noreferrer">
-                  <span>Código no GitHub</span>
+                  <span data-translate="projectsGitHubLink">Código no GitHub</span>
                   <span>↗</span>
                 </a>`
         : ''
@@ -130,6 +130,7 @@ const translations = {
 
     projectsTitle: "Projetos em destaque",
     projectsSubtitle: "Projetos que refletem minha evolução como desenvolvedor, explorando lógica de programação, estruturas de software e aplicações web.",
+    projectsGitHubLink: "Código no GitHub",
 
     skillsTitle: "Skills",
     skillsFrontend: "Front-end",
@@ -195,6 +196,7 @@ const translations = {
 
     projectsTitle: "Featured projects",
     projectsSubtitle: "Projects that reflect my evolution as a developer, exploring programming logic, software structures and web applications.",
+    projectsGitHubLink: "Code on GitHub",
 
     skillsTitle: "Skills",
     skillsFullStack: "Full Stack",
@@ -249,10 +251,10 @@ function loadProjects() {
         </div>
 
         <div class="project-links">
-          <a href="${p.repoUrl}" class="project-link" target="_blank" rel="noreferrer">
-            <span>Código no GitHub</span>
-            <span>↗</span>
-          </a>
+        <a href="${p.repoUrl}" class="project-link" target="_blank" rel="noreferrer">
+          <span>${translations[currentLang].projectsGitHubLink}</span>
+          <span>↗</span>
+        </a>
         </div>
       </div>
     `;
