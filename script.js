@@ -24,6 +24,14 @@ if (yearSpan) {
 // Lista de projetos
 const projects = [
   {
+    titleKey: 'project0_title',
+    metaKey: 'project0_meta',
+    descriptionKey: 'project0_description',
+    tags: ['Python', 'Flask', 'PostgreSQL', 'Bootstrap', 'JavaScript', 'CRUD'],
+    repoUrl: 'https://github.com/cdiasbrasilio/real_estate_broker',
+    highlightKey: 'project0_highlight',
+  },
+  {
     titleKey: 'project1_title',
     metaKey: 'project1_meta',
     descriptionKey: 'project1_description',
@@ -152,6 +160,11 @@ const translations = {
     footerRights: "© Cristiano Brasilio. Todos os direitos reservados.",
     footerBuilt: "Construído com HTML, CSS e JavaScript.",
 
+    project0_title: "Sistema de Imobiliária",
+    project0_meta: "Projeto pessoal • 2025",
+    project0_description: "Sistema web para gestão de imóveis e corretagem, com cadastro de clientes, imóveis e controle administrativo.",
+    project0_highlight: "Gestão completa de imóveis e clientes. Melhorou minha lógica de programação, em Python com uso de framework Flask, além de integração com Banco de Dados",
+
     project1_title: "Simulador do jogo War em Python",
     project1_meta: "Projeto pessoal • 2025",
     project1_description: "Simulador de batalha desenvolvido em Python que utiliza lógica probabilística para determinar o resultado de confrontos entre exércitos. O sistema permite configurar tropas, forças e cenários, executando múltiplas simulações para analisar vitórias, derrotas e estatísticas gerais. O projeto reforça conceitos de programação estruturada, funções, aleatoriedade e modelagem de comportamentos.",
@@ -217,6 +230,11 @@ const translations = {
     footerRights: "© Cristiano Brasilio. All rights reserved.",
     footerBuilt: "Built with HTML, CSS and JavaScript.",
 
+    project0_title: "Real Estate System",
+    project0_meta: "Personal project • 2025",
+    project0_description: "Web system for property management and brokerage, with client registration, properties, and administrative control.",
+    project0_highlight: "Complete management of properties and clients. Improved my programming logic in Python using the Flask framework, as well as integration with a Database",
+    
     project1_title: "War Game Simulator in Python",
     project1_meta: "Personal project • 2025",
     project1_description: "Battle simulator developed in Python using probabilistic logic to determine the outcome of army confrontations. The system allows configuring troops, strengths and scenarios, running multiple simulations to analyze wins, losses and general statistics. The project reinforces structured programming, functions, randomness and behavior modeling.",
