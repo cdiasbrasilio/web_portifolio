@@ -248,6 +248,7 @@ body {
 .hero-card-text {
   margin: 0;
   font-weight: 500;
+  padding-inline: 7px;
 }
 
 /* Seções */
