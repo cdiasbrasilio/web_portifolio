@@ -27,24 +27,24 @@ const projects = [
     titleKey: 'project0_title',
     metaKey: 'project0_meta',
     descriptionKey: 'project0_description',
-    tags: ['Python', 'Flask', 'PostgreSQL', 'Bootstrap', 'JavaScript', 'CRUD'],
-    repoUrl: 'https://github.com/cdiasbrasilio/real_estate_broker',
+    tags: ['Python', 'Flask', 'PostgreSQL', 'Bootstrap', 'CRUD'],
+    repoUrl: 'https://github.com/cdiasbrasilio/',
     highlightKey: 'project0_highlight',
   },
   {
     titleKey: 'project1_title',
     metaKey: 'project1_meta',
     descriptionKey: 'project1_description',
-    tags: ['Python', 'Probabilidade', 'Simulação', 'Lógica de Programação', 'Funções', 'CLI'],
-    repoUrl: 'https://github.com/cdiasbrasilio/war_game_simulator',
+    tags: ['Python', 'HTML', 'CSS', 'JavaScript', 'SQL', 'CRUD'],
+    repoUrl: 'https://github.com/cdiasbrasilio',
     highlightKey: 'project1_highlight',
   },
   {
     titleKey: 'project2_title',
     metaKey: 'project2_meta',
     descriptionKey: 'project2_description',
-    tags: ['C', 'Strucs', 'Ponteiros', 'Ficheiros/Arquivos', 'CRUD', 'Modularização', 'Lógica de Programação', 'CLI'],
-    repoUrl: 'https://github.com/cdiasbrasilio/StudentRegistrationManagementSystem',
+    tags: ['C', 'Python', 'Algorithms', 'Strucs', 'Pointers', 'Modularization', 'Programming Logic'],
+    repoUrl: 'https://github.com/cdiasbrasilio',
     highlightKey: 'project2_highlight',
   },
   {
@@ -53,7 +53,7 @@ const projects = [
     descriptionKey: 'project3_description',
     tags: ['HTML', 'CSS', 'JavaScript'],
     liveUrl: '#',
-    repoUrl: 'https://github.com/seu-usuario/portfolio',
+    repoUrl: 'https://github.com/cdiasbrasilio/web_portifolio',
     highlightKey: 'project3_highlight',
   },
 ];
@@ -127,8 +127,7 @@ const translations = {
     cardLocationText: "Lisboa, Portugal",
     cardExpTitle: "Experiência",
     cardExpText: "1 Ano de Desenvolvimento Full Stack e Dados",
-    cardStackTitle: "Stack principal",
-    cardLearningTitle: "Stack em Aprendizado",
+    cardStackTitle: "Principais Stacks",
 
     aboutTitle: "Sobre mim",
     aboutP1: "Sou um profissional com uma trajetória de carreira marcada pela transição estratégica da Engenharia Civil e Gestão de Operações para o desenvolvimento de software. Atualmente, estou cursando uma graduação em Análise e Desenvolvimento de Sistemas, combinando uma mentalidade analítica específica com a capacidade de entregar soluções tecnológicas que geram impacto direto nos negócios.",
@@ -137,7 +136,7 @@ const translations = {
     aboutP4: "Minha motivação reside em aplicar o rigor da engenharia para desenvolver softwares que não apenas funcionem, mas que otimizem processos e impulsionem a produtividade das organizações.",
 
     projectsTitle: "Projetos em destaque",
-    projectsSubtitle: "Projetos que refletem minha evolução como desenvolvedor, explorando lógica de programação, estruturas de software e aplicações web.",
+    projectsSubtitle: "Nesta secção, apresento uma seleção de projetos onde aplico o rigor da engenharia e a lógica de programação para resolver problemas reais. O meu foco reside no desenvolvimento de aplicações Full Stack escaláveis, na automação de processos e na extração de inteligência a partir de dados, transformando requisitos complexos em ferramentas digitais funcionais e orientadas a resultados.",
     projectsGitHubLink: "Código no GitHub",
 
     skillsTitle: "Skills",
@@ -160,25 +159,25 @@ const translations = {
     footerRights: "© Cristiano Brasilio. Todos os direitos reservados.",
     footerBuilt: "Construído com HTML, CSS e JavaScript.",
 
-    project0_title: "Sistema de Imobiliária",
-    project0_meta: "Projeto pessoal • 2025",
-    project0_description: "Sistema web para gestão de imóveis e corretagem, com cadastro de clientes, imóveis e controle administrativo.",
-    project0_highlight: "Gestão completa de imóveis e clientes. Melhorou minha lógica de programação, em Python com uso de framework Flask, além de integração com Banco de Dados",
+    project0_title: "E-commerce de Cursos - TECForte",
+    project0_meta: "Projeto profissional • 2026",
+    project0_description: "Desenvolvimento de uma plataforma de E-commerce Full Stack dedicada à venda de cursos online. O projeto utiliza React para uma interface dinâmica e responsiva, integrada a um ecossistema Flask (Python) para a gestão de regras de negócio, autenticação e persistência de dados em PostgreSQL.",
+    project0_highlight: "Nesta aplicação, implementei uma arquitetura desacoplada onde o frontend em React consome uma API REST desenvolvida em Flask. No lado do cliente, foquei na criação de componentes reutilizáveis e num design responsivo orientado à experiência do utilizador (UX). No backend, estruturei um sistema de autenticação seguro e geri a lógica de catálogo e processamento de pedidos através de uma base de dados PostgreSQL. A solução destaca-se pela integração fluida entre as tecnologias, garantindo a escalabilidade da plataforma e a integridade das transações, desde a navegação do utilizador até à finalização do checkout.",
 
-    project1_title: "Simulador do jogo War em Python",
-    project1_meta: "Projeto pessoal • 2025",
-    project1_description: "Simulador de batalha desenvolvido em Python que utiliza lógica probabilística para determinar o resultado de confrontos entre exércitos. O sistema permite configurar tropas, forças e cenários, executando múltiplas simulações para analisar vitórias, derrotas e estatísticas gerais. O projeto reforça conceitos de programação estruturada, funções, aleatoriedade e modelagem de comportamentos.",
-    project1_highlight: "Projeto que fortaleceu minha lógica de programação e o uso de funções e simulações probabilísticas em Python.",
+    project1_title: "Software de Gerencimento de Contratos",
+    project1_meta: "Projeto pessoal / profissional • 2025",
+    project1_description: "Desenvolvimento de um sistema inteligente de gestão de contratos utilizando Python e Flask, projetado para automatizar o pipeline de vendas e o cálculo de comissões. A ferramenta centraliza o registo de fecho de contratos e transforma dados brutos em indicadores estratégicos sobre performance de equipa e comportamento de mercado.",
+    project1_highlight: "O sistema foi construído sobre uma arquitetura robusta utilizando Python e o micro-framework Flask, integrando uma base de dados relacional para a persistência e manipulação de fluxos contratuais complexos. Desenvolvi algoritmos para o processamento de lógica de negócio que automatizam o cálculo de comissões variáveis, tratando exceções e garantindo a integridade dos dados financeiros. No backend, implementei scripts de Data Analysis para realizar a filtragem e agregação de grandes volumes de registos, permitindo a extração de métricas de performance e a modelagem do perfil de cliente ideal (ICP). A interface comunica com o servidor para fornecer visualizações dinâmicas do pipeline, transformando operações manuais em processos automatizados e escaláveis, o que otimizou significativamente a eficiência operacional da equipa.",
 
-    project2_title: "Software de Gestão de Estudantes",
-    project2_meta: "Projeto pessoal • 2025",
-    project2_description: "Aplicação em C para gerenciamento de estudantes, implementada com estruturas, ponteiros e operações de leitura/escrita em ficheiros. O sistema inclui funcionalidades de CRUD completas, validação de entradas e organização modular do código, consolidando conhecimentos essenciais de programação estruturada e manipulação de dados persistentes.",
-    project2_highlight: "Projeto que consolidou conceitos fundamentais de C, estruturas, ponteiros e manipulação de ficheiros.",
+    project2_title: "Projetos Acadêmcicos: Estrutura de Dados",
+    project2_meta: "Projeto acadêmico • 2025",
+    project2_description: "Implementação de algoritmos fundamentais e estruturas de dados utilizando Python e C. O foco deste tópico é demonstrar a capacidade de resolver problemas computacionais com eficiência, alternando entre a produtividade de linguagens modernas e o controle rigoroso de memória e performance de baixo e alto nível.",
+    project2_highlight: "Nesta seção, exploro a base da ciência da computação através da estruturação eficiente de dados. Desenvolvi soluções em C e Python para algoritmos complexos de busca e ordenação, além de implementar estruturas como listas e pilhas. Todas as implementações são acompanhadas por uma análise de Complexidade (Big O Notation), garantindo que o software seja não apenas funcional, mas otimizado para lidar com grandes volumes de dados de forma escalável.",
 
     project3_title: "Portfolio Pessoal",
-    project3_meta: "Projeto pessoal • 2025",
-    project3_description: "Este próprio site, construído para ser simples de manter, rápido e de fácil leitura.",
-    project3_highlight: "Priorizei acessibilidade básica, tipografia e hierarquia visual.",
+    project3_meta: "Projeto pessoal • 2025 • Em contante atualização",
+    project3_description: "Ese próprio site, construído para ser simples de manter, rápido e de fácil leitura.",
+    project3_highlight: "Este projeto foi desenvolvido utilizando as tecnologias fundamentais da web — HTML5, CSS3 e JavaScript (ES6+) — para garantir uma experiência leve, rápida e totalmente responsiva. A estrutura reflete o meu compromisso com um código limpo e semântico, onde o HTML5 estabelece uma base sólida para acessibilidade e otimização em motores de busca (SEO). A estilização em CSS3 utiliza recursos modernos como Flexbox e CSS Variables para criar um design adaptável e fluido em qualquer dispositivo, enquanto o JavaScript assegura a interatividade através da manipulação do DOM, validações dinâmicas e efeitos visuais que elevam a experiência do utilizador.",
   },
 
   en: {
@@ -198,8 +197,7 @@ const translations = {
     cardLocationText: "Lisbon, Portugal",
     cardExpTitle: "Experience",
     cardExpText: "1 Year of Full Stack Development and Data",
-    cardStackTitle: "Main stack",
-    cardLearningTitle: "Learning stack",
+    cardStackTitle: "Main stacks",
 
     aboutTitle: "About me",
     aboutP1: "I am a professional with a career path marked by the strategic transition from Civil Engineering and Operations Management to software development. Currently, I am pursuing a degree in Systems Analysis and Development, combining a specific analytical mindset with the ability to deliver technological solutions that generate a direct impact on the business.",
@@ -208,7 +206,7 @@ const translations = {
     aboutP4: "My motivation lies in applying the rigor of engineering to develop software that not only works, but also optimizes processes and boosts the productivity of organizations.",
 
     projectsTitle: "Featured projects",
-    projectsSubtitle: "Projects that reflect my evolution as a developer, exploring programming logic, software structures and web applications.",
+    projectsSubtitle: "In this section, I present a selection of projects where I apply engineering rigor and programming logic to solve real-world problems. My focus is on developing scalable Full Stack applications, automating processes, and extracting intelligence from data, transforming complex requirements into functional, results-oriented digital tools.",
     projectsGitHubLink: "Code on GitHub",
 
     skillsTitle: "Skills",
@@ -230,25 +228,25 @@ const translations = {
     footerRights: "© Cristiano Brasilio. All rights reserved.",
     footerBuilt: "Built with HTML, CSS and JavaScript.",
 
-    project0_title: "Real Estate System",
-    project0_meta: "Personal project • 2025",
-    project0_description: "Web system for property management and brokerage, with client registration, properties, and administrative control.",
-    project0_highlight: "Complete management of properties and clients. Improved my programming logic in Python using the Flask framework, as well as integration with a Database",
+    project0_title: "E-commerce for Courses - TECForte",
+    project0_meta: "Professional project • 2026",
+    project0_description: "Development of a full-stack e-commerce platform dedicated to selling online courses. The project uses React for a dynamic and responsive interface, integrated with a Flask (Python) ecosystem for managing business rules, authentication, and data persistence in PostgreSQL.",
+    project0_highlight: "In this application, I implemented a decoupled architecture where the React frontend consumes a REST API developed in Flask. On the client side, I focused on creating reusable components and a responsive design oriented towards user experience (UX). On the backend, I structured a secure authentication system and managed the catalog logic and order processing through a PostgreSQL database. The solution stands out for its seamless integration between technologies, ensuring platform scalability and transaction integrity, from user navigation to checkout completion.",
     
-    project1_title: "War Game Simulator in Python",
-    project1_meta: "Personal project • 2025",
-    project1_description: "Battle simulator developed in Python using probabilistic logic to determine the outcome of army confrontations. The system allows configuring troops, strengths and scenarios, running multiple simulations to analyze wins, losses and general statistics. The project reinforces structured programming, functions, randomness and behavior modeling.",
-    project1_highlight: "Project that strengthened my programming logic and the use of functions and probabilistic simulations in Python.",
+    project1_title: "Contract Management Software",
+    project1_meta: "Personal / profesional project • 2025",
+    project1_description: "Development of an intelligent contract management system using Python and Flask, designed to automate the sales pipeline and commission calculation. The tool centralizes the registration of closed contracts and transforms raw data into strategic indicators on team performance and market behavior.",
+    project1_highlight: "The system was built on a robust architecture using Python and the Flask micro-framework, integrating a relational database for the persistence and manipulation of complex contractual flows. I developed algorithms for processing business logic that automate the calculation of variable commissions, handling exceptions and ensuring the integrity of financial data. On the backend, I implemented Data Analysis scripts to filter and aggregate large volumes of records, allowing the extraction of performance metrics and the modeling of the ideal customer profile (ICP). The interface communicates with the server to provide dynamic pipeline visualizations, transforming manual operations into automated and scalable processes, which significantly optimized the team's operational efficiency.",
 
     project2_title: "Student Management Software",
     project2_meta: "Personal project • 2025",
-    project2_description: "C application for student management, implemented with structs, pointers and file read/write operations. The system includes full CRUD features, input validation and modular code organization, consolidating essential concepts of structured programming and persistent data handling.",
-    project2_highlight: "Project that consolidated fundamental concepts of C, structs, pointers and file manipulation.",
+    project2_description: "Implementation of fundamental algorithms and data structures using Python and C. The focus of this topic is to demonstrate the ability to efficiently solve computational problems, alternating between the productivity of modern languages ​​and specific low- and high-level memory and performance control.",
+    project2_highlight: "In this section, I explore the foundation of computer science through efficient data structuring. I developed solutions in C and Python for complex search and sorting algorithms, as well as implementing structures such as lists and stacks. All implementations are accompanied by a Complexity Analysis (Big O Notation), ensuring that the software is not only functional but optimized to handle large volumes of data in a scalable manner.",
 
     project3_title: "Personal Portfolio",
-    project3_meta: "Personal project • 2025",
+    project3_meta: "Personal project • 2025 • Constantly updated",
     project3_description: "This very website, built to be simple to maintain, fast and easy to read.",
-    project3_highlight: "I prioritized basic accessibility, typography and visual hierarchy.",
+    project3_highlight: "This project was developed using fundamental web technologies — HTML5, CSS3, and JavaScript (ES6+) — to ensure a lightweight, fast, and fully responsive experience. The framework reflects my commitment to clean and semantic code, where HTML5 establishes a solid foundation for accessibility and search engine optimization (SEO). CSS3 styling utilizes modern features such as Flexbox and CSS Variables to create an adaptable and fluid design on any device, while JavaScript ensures interactivity through DOM manipulation, dynamic validations, and visual effects that enhance the user experience.",
   }
 };
 
