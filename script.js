@@ -142,13 +142,13 @@ const translations = {
     skillsTitle: "Skills",
     skillsFrontend: "Front-end",
     skillsFullStack: "Full Stack",
+    skillsFrameworks: "Frameworks",
     skillsTools: "Ferramentas",
     skillsOther: "Outros",
 
     skillsBestPractices: "Boas práticas de UI/UX",
-    skillsAccessibility: "Acessibilidade básica",
-    skillsPerformance: "Performance básica de front-end",
-    skillsTeamwork: "Trabalho em equipe e comunicação",
+    skillsTeamwork: "Trabalho em equipe",
+    skillsComunication: "Comunicação assertiva",
 
     contactTitle: "Contato",
     contactText: "Curtiu meu trabalho ou quer conversar sobre alguma oportunidade? Ficarei feliz em falar com você.",
@@ -211,13 +211,13 @@ const translations = {
 
     skillsTitle: "Skills",
     skillsFullStack: "Full Stack",
+    skillsFrameworks: "Frameworks",
     skillsTools: "Tools",
     skillsOther: "Other",
 
     skillsBestPractices: "UI/UX best practices",
-    skillsAccessibility: "Basic accessibility",
-    skillsPerformance: "Basic front-end performance",
-    skillsTeamwork: "Teamwork and communication",
+    skillsTeamwork: "Teamwork",
+    skillsComunication: "Assertive communication",
 
     contactTitle: "Contact",
     contactText: "Liked my work or want to talk about an opportunity? I’ll be happy to talk to you.",
