@@ -159,7 +159,7 @@ const translations = {
     footerRights: "© Cristiano Brasilio. Todos os direitos reservados.",
     footerBuilt: "Construído com HTML, CSS e JavaScript.",
 
-    project0_title: "E-commerce de Cursos - TECForte",
+    project0_title: " 🚧 Em Construção 🚧 - E-commerce de Cursos - TECForte",
     project0_meta: "Projeto profissional • 2026",
     project0_description: "Desenvolvimento de uma plataforma de E-commerce Full Stack dedicada à venda de cursos online. O projeto utiliza React para uma interface dinâmica e responsiva, integrada a um ecossistema Flask (Python) para a gestão de regras de negócio, autenticação e persistência de dados em PostgreSQL.",
     project0_highlight: "Nesta aplicação, implementei uma arquitetura desacoplada onde o frontend em React consome uma API REST desenvolvida em Flask. No lado do cliente, foquei na criação de componentes reutilizáveis e num design responsivo orientado à experiência do utilizador (UX). No backend, estruturei um sistema de autenticação seguro e geri a lógica de catálogo e processamento de pedidos através de uma base de dados PostgreSQL. A solução destaca-se pela integração fluida entre as tecnologias, garantindo a escalabilidade da plataforma e a integridade das transações, desde a navegação do utilizador até à finalização do checkout.",
@@ -169,7 +169,7 @@ const translations = {
     project1_description: "Desenvolvimento de um sistema inteligente de gestão de contratos utilizando Python e Flask, projetado para automatizar o pipeline de vendas e o cálculo de comissões. A ferramenta centraliza o registo de fecho de contratos e transforma dados brutos em indicadores estratégicos sobre performance de equipa e comportamento de mercado.",
     project1_highlight: "O sistema foi construído sobre uma arquitetura robusta utilizando Python e o micro-framework Flask, integrando uma base de dados relacional para a persistência e manipulação de fluxos contratuais complexos. Desenvolvi algoritmos para o processamento de lógica de negócio que automatizam o cálculo de comissões variáveis, tratando exceções e garantindo a integridade dos dados financeiros. No backend, implementei scripts de Data Analysis para realizar a filtragem e agregação de grandes volumes de registos, permitindo a extração de métricas de performance e a modelagem do perfil de cliente ideal (ICP). A interface comunica com o servidor para fornecer visualizações dinâmicas do pipeline, transformando operações manuais em processos automatizados e escaláveis, o que otimizou significativamente a eficiência operacional da equipa.",
 
-    project2_title: "Projetos Acadêmcicos: Estrutura de Dados",
+    project2_title: " 🚧 Em Construção 🚧 - Projetos Acadêmcicos: Estrutura de Dados",
     project2_meta: "Projeto acadêmico • 2025",
     project2_description: "Implementação de algoritmos fundamentais e estruturas de dados utilizando Python e C. O foco deste tópico é demonstrar a capacidade de resolver problemas computacionais com eficiência, alternando entre a produtividade de linguagens modernas e o controle rigoroso de memória e performance de baixo e alto nível.",
     project2_highlight: "Nesta seção, exploro a base da ciência da computação através da estruturação eficiente de dados. Desenvolvi soluções em C e Python para algoritmos complexos de busca e ordenação, além de implementar estruturas como listas e pilhas. Todas as implementações são acompanhadas por uma análise de Complexidade (Big O Notation), garantindo que o software seja não apenas funcional, mas otimizado para lidar com grandes volumes de dados de forma escalável.",
@@ -228,7 +228,7 @@ const translations = {
     footerRights: "© Cristiano Brasilio. All rights reserved.",
     footerBuilt: "Built with HTML, CSS and JavaScript.",
 
-    project0_title: "E-commerce for Courses - TECForte",
+    project0_title: " 🚧 Under Construction 🚧 - E-commerce for Courses - TECForte",
     project0_meta: "Professional project • 2026",
     project0_description: "Development of a full-stack e-commerce platform dedicated to selling online courses. The project uses React for a dynamic and responsive interface, integrated with a Flask (Python) ecosystem for managing business rules, authentication, and data persistence in PostgreSQL.",
     project0_highlight: "In this application, I implemented a decoupled architecture where the React frontend consumes a REST API developed in Flask. On the client side, I focused on creating reusable components and a responsive design oriented towards user experience (UX). On the backend, I structured a secure authentication system and managed the catalog logic and order processing through a PostgreSQL database. The solution stands out for its seamless integration between technologies, ensuring platform scalability and transaction integrity, from user navigation to checkout completion.",
@@ -238,7 +238,7 @@ const translations = {
     project1_description: "Development of an intelligent contract management system using Python and Flask, designed to automate the sales pipeline and commission calculation. The tool centralizes the registration of closed contracts and transforms raw data into strategic indicators on team performance and market behavior.",
     project1_highlight: "The system was built on a robust architecture using Python and the Flask micro-framework, integrating a relational database for the persistence and manipulation of complex contractual flows. I developed algorithms for processing business logic that automate the calculation of variable commissions, handling exceptions and ensuring the integrity of financial data. On the backend, I implemented Data Analysis scripts to filter and aggregate large volumes of records, allowing the extraction of performance metrics and the modeling of the ideal customer profile (ICP). The interface communicates with the server to provide dynamic pipeline visualizations, transforming manual operations into automated and scalable processes, which significantly optimized the team's operational efficiency.",
 
-    project2_title: "Student Management Software",
+    project2_title: " 🚧 Under Construction 🚧 - Academic Projects: Data Structures",
     project2_meta: "Personal project • 2025",
     project2_description: "Implementation of fundamental algorithms and data structures using Python and C. The focus of this topic is to demonstrate the ability to efficiently solve computational problems, alternating between the productivity of modern languages ​​and specific low- and high-level memory and performance control.",
     project2_highlight: "In this section, I explore the foundation of computer science through efficient data structuring. I developed solutions in C and Python for complex search and sorting algorithms, as well as implementing structures such as lists and stacks. All implementations are accompanied by a Complexity Analysis (Big O Notation), ensuring that the software is not only functional but optimized to handle large volumes of data in a scalable manner.",
