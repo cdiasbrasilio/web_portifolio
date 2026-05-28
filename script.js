@@ -152,7 +152,7 @@ const translations = {
     project1_title: "Comparador de Faturas e Tarifas",
     project1_meta: "Projeto de estudo • 2026 • Em constante atualização",
     project1_description: "Uma aplicação para comparar faturas e tarifas de energia e gás, voltado a comerciais da empresa Gold Energy, para auxiliar na negociação de contratos e otimização de custos.",
-    project1_highlight: "Este projeto foi desenvolvido para praticar conceitos de programação e design de interfaces. Utiliza tecnologias modernas para criar uma experiência de usuário fluida e responsiva. Utiliza JavaScript para cálculos dinâmicos e manipulação do DOM, CSS para um layout limpo e adaptável, e HTML semântico para garantir acessibilidade e estruturação adequada do conteúdo."
+    project1_highlight: "Este projeto foi desenvolvido para praticar conceitos de programação e design de interfaces. Utiliza tecnologias modernas para criar uma experiência de usuário fluida e responsiva. Utiliza"
   },
 
   en: {
@@ -211,7 +211,7 @@ const translations = {
     project1_title: "Invoice and Tariff Comparator",
     project1_meta: "Study project • 2026 • Constantly updated",
     project1_description: "An application to compare energy and gas invoices and tariffs, aimed at salespeople of the company Gold Energy, to assist in contract negotiation and cost optimization.",
-    project1_highlight: "This project was developed to practice programming concepts and interface design. It uses modern technologies to create a smooth and responsive user experience. "
+    project1_highlight: "This project was developed to practice programming concepts and interface design. It uses modern technologies to create a smooth and responsive user experience."
   }
 };
 
