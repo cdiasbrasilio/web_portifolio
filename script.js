@@ -23,6 +23,15 @@ if (yearSpan) {
 
 // Lista de projetos
 const projects = [
+    {
+    titleKey: 'project1_title',
+    metaKey: 'project1_meta',
+    descriptionKey: 'project1_description',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    liveUrl: 'https://cdiasbrasilio.github.io/invoinceAndTariffComparator/',
+    repoUrl: 'https://github.com/cdiasbrasilio/invoinceAndTariffComparator',
+    highlightKey: 'project1_highlight',
+  },
   {
     titleKey: 'project0_title',
     metaKey: 'project0_meta',
@@ -139,6 +148,11 @@ const translations = {
     project0_meta: "Projeto pessoal • 2025 • Em contante atualização",
     project0_description: "Ese próprio site, construído para ser simples de manter, rápido e de fácil leitura.",
     project0_highlight: "Este projeto foi desenvolvido utilizando as tecnologias fundamentais da web — HTML5, CSS3 e JavaScript (ES6+) — para garantir uma experiência leve, rápida e totalmente responsiva. A estrutura reflete o meu compromisso com um código limpo e semântico, onde o HTML5 estabelece uma base sólida para acessibilidade e otimização em motores de busca (SEO). A estilização em CSS3 utiliza recursos modernos como Flexbox e CSS Variables para criar um design adaptável e fluido em qualquer dispositivo, enquanto o JavaScript assegura a interatividade através da manipulação do DOM, validações dinâmicas e efeitos visuais que elevam a experiência do utilizador.",
+  
+    project1_title: "Comparador de Faturas e Tarifas",
+    project1_meta: "Projeto de estudo • 2026 • Em constante atualização",
+    project1_description: "Uma aplicação para comparar faturas e tarifas de energia e gás, voltado a comerciais da empresa Gold Energy, para auxiliar na negociação de contratos e otimização de custos.",
+    project1_highlight: "Este projeto foi desenvolvido para praticar conceitos de programação e design de interfaces. Utiliza tecnologias modernas para criar uma experiência de usuário fluida e responsiva. Utiliza JavaScript para cálculos dinâmicos e manipulação do DOM, CSS para um layout limpo e adaptável, e HTML semântico para garantir acessibilidade e estruturação adequada do conteúdo."
   },
 
   en: {
@@ -193,6 +207,11 @@ const translations = {
     project0_meta: "Personal project • 2025 • Constantly updated",
     project0_description: "This very website, built to be simple to maintain, fast and easy to read.",
     project0_highlight: "This project was developed using fundamental web technologies — HTML5, CSS3, and JavaScript (ES6+) — to ensure a lightweight, fast, and fully responsive experience. The framework reflects my commitment to clean and semantic code, where HTML5 establishes a solid foundation for accessibility and search engine optimization (SEO). CSS3 styling utilizes modern features such as Flexbox and CSS Variables to create an adaptable and fluid design on any device, while JavaScript ensures interactivity through DOM manipulation, dynamic validations, and visual effects that enhance the user experience.",
+  
+    project1_title: "Invoice and Tariff Comparator",
+    project1_meta: "Study project • 2026 • Constantly updated",
+    project1_description: "An application to compare energy and gas invoices and tariffs, aimed at salespeople of the company Gold Energy, to assist in contract negotiation and cost optimization.",
+    project1_highlight: "This project was developed to practice programming concepts and interface design. It uses modern technologies to create a smooth and responsive user experience. "
   }
 };
 
