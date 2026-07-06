@@ -24,6 +24,15 @@ if (yearSpan) {
 // Lista de projetos
 const projects = [
     {
+    titleKey: 'project2_title',
+    metaKey: 'project2_meta',
+    descriptionKey: 'project2_description',
+    tags: ['React', 'Tailwind CSS', 'JavaScript'],
+    liveUrl: 'https://studio-nm.vercel.app/',
+    repoUrl: 'https://github.com/cdiasbrasilio/studio_nm',
+    highlightKey: 'project2_highlight',
+  },
+    {
     titleKey: 'project1_title',
     metaKey: 'project1_meta',
     descriptionKey: 'project1_description',
@@ -152,7 +161,12 @@ const translations = {
     project1_title: "Comparador de Faturas e Tarifas",
     project1_meta: "Projeto de estudo • 2026 • Em constante atualização",
     project1_description: "Uma aplicação para comparar faturas e tarifas de energia e gás, voltado a comerciais da empresa Gold Energy, para auxiliar na negociação de contratos e otimização de custos.",
-    project1_highlight: "Este projeto foi desenvolvido para praticar conceitos de programação e design de interfaces. Utiliza tecnologias modernas para criar uma experiência de usuário fluida e responsiva. Utiliza"
+    project1_highlight: "Este projeto foi desenvolvido para praticar conceitos de programação e design de interfaces. Utiliza tecnologias modernas para criar uma experiência de usuário fluida e responsiva. Utiliza",
+  
+    project2_title: "Studio NM",
+    project2_meta: "Projeto comercial • 2026",
+    project2_description: "Landing Page SPA premium desenvolvida com React e Tailwind CSS, focada na conversão de agendamentos e na expressão da identidade visual sofisticada de uma marca de estética.",
+    project2_highlight: "Desenvolvimento de uma Landing Page responsiva em formato SPA (Single Page Application) para a Nail Designer Naila Macedo. O projeto foi arquitetado com foco total na conversão imediata, otimizando a captura de leads qualificados ao direcionar o usuário diretamente para o agendamento via WhatsApp com dados pré-tratados. A interface foi personalizada sob medida utilizando tokens de design específicos (tons de Bordô, Rose Gold e Off-White), unindo uma estética elegante e de alta costura a uma navegação fluida de alta performance."
   },
 
   en: {
@@ -211,7 +225,12 @@ const translations = {
     project1_title: "Invoice and Tariff Comparator",
     project1_meta: "Study project • 2026 • Constantly updated",
     project1_description: "An application to compare energy and gas invoices and tariffs, aimed at salespeople of the company Gold Energy, to assist in contract negotiation and cost optimization.",
-    project1_highlight: "This project was developed to practice programming concepts and interface design. It uses modern technologies to create a smooth and responsive user experience."
+    project1_highlight: "This project was developed to practice programming concepts and interface design. It uses modern technologies to create a smooth and responsive user experience.",
+  
+    project2_title: "Studio NM",
+    project2_meta: "Study project • 2026 • Constantly updated",
+    project2_description: "A premium SPA Landing Page developed with React and Tailwind CSS, focused on appointment conversion and expressing the sophisticated visual identity of a beauty brand.",
+    project2_highlight: "Development of a responsive Landing Page in SPA (Single Page Application) format for Nail Designer Naila Macedo. The project was architected with a total focus on immediate conversion, optimizing the capture of qualified leads by directing the user directly to scheduling via WhatsApp with pre-processed data. The interface was custom-designed using specific design tokens (Burgundy, Rose Gold, and Off-White tones), combining an elegant, high-fashion aesthetic with smooth, high-performance navigation.",
   }
 };
 
