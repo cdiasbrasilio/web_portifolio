@@ -23,7 +23,7 @@ if (yearSpan) {
 
 // Lista de projetos
 const projects = [
-    {
+  {
     titleKey: 'project2_title',
     metaKey: 'project2_meta',
     descriptionKey: 'project2_description',
@@ -32,7 +32,7 @@ const projects = [
     repoUrl: 'https://github.com/cdiasbrasilio/studio_nm',
     highlightKey: 'project2_highlight',
   },
-    {
+  {
     titleKey: 'project1_title',
     metaKey: 'project1_meta',
     descriptionKey: 'project1_description',
@@ -46,61 +46,13 @@ const projects = [
     metaKey: 'project0_meta',
     descriptionKey: 'project0_description',
     tags: ['HTML', 'CSS', 'JavaScript'],
-    liveUrl: '#',
+    liveUrl: '', // String vazia para omitir o botão de deploy neste projeto específico
     repoUrl: 'https://github.com/cdiasbrasilio/web_portifolio',
     highlightKey: 'project0_highlight',
   },
 ];
 
-// Função para criar o HTML dos projetos
-function renderProjects() {
-  const projectsGrid = document.getElementById('projectsGrid');
-  if (!projectsGrid) return;
-
-  projectsGrid.innerHTML = '';
-
-  projects.forEach(project => {
-    const card = document.createElement('article');
-    card.className = 'project-card';
-
-    card.innerHTML = `
-      <div>
-        <div class="project-meta">${project.meta}</div>
-        <h3 class="project-title">${project.title}</h3>
-        <p class="project-desc">${project.description}</p>
-        <div class="project-tags">
-          ${project.tags
-        .map(tag => `<span class="project-tag">${tag}</span>`)
-        .join('')}
-        </div>
-        <div class="project-links">
-          ${project.liveUrl
-        ? `<a href="${project.liveUrl}" class="project-link" target="_blank" rel="noreferrer">
-                  <span>Ver projeto</span>
-                  <span>↗</span>
-                </a>`
-        : ''
-      }
-          ${project.repoUrl
-        ? `<a href="${project.repoUrl}" class="project-link" target="_blank" rel="noreferrer">
-                  <span data-translate="projectsGitHubLink">Código no GitHub</span>
-                  <span>↗</span>
-                </a>`
-        : ''
-      }
-        </div>
-      </div>
-      <div class="project-right">
-        <p class="project-highlight">${project.highlight}</p>
-      </div>
-    `;
-
-    projectsGrid.appendChild(card);
-  });
-}
-renderProjects();
-
-// Alternar idioma
+// Alternar idioma e Dicionário
 let currentLang = "pt";
 
 const translations = {
@@ -130,8 +82,9 @@ const translations = {
     aboutP4: "Minha motivação reside em aplicar o rigor da engenharia para desenvolver softwares que não apenas funcionem, mas que otimizem processos e impulsionem a produtividade das organizações.",
 
     projectsTitle: "Projetos em destaque",
-    projectsSubtitle: "Nesta secção, apresento uma seleção de projetos onde aplico o rigor da engenharia e a lógica de programação para resolver problemas reais. O meu foco reside no desenvolvimento de aplicações Full Stack escaláveis, na automação de processos e na extração de inteligência a partir de dados, transformando requisitos complexos em ferramentas digitais funcionais e orientadas a resultados.",
+    projectsSubtitle: "Nesta secção, apresento uma seleção de projetos onde aplico o rigor da engenharia e a lógica de programação para resolver problemas reais. O meu foco reside no desenvolvimento de aplicações Full Stack escaláveis, na automação de processos e na extração de inteligência a partir de dados, transformando requisitos complexos in ferramentas digitais funcionais e orientadas a resultados.",
     projectsGitHubLink: "Código no GitHub",
+    projectsLiveLink: "Ver projeto", // Adicionado para tradução dinâmina
 
     skillsTitle: "Skills",
     skillsFrontend: "Front-end",
@@ -155,18 +108,18 @@ const translations = {
 
     project0_title: "Portfolio Pessoal",
     project0_meta: "Projeto pessoal • 2025 • Em contante atualização",
-    project0_description: "Ese próprio site, construído para ser simples de manter, rápido e de fácil leitura.",
-    project0_highlight: "Este projeto foi desenvolvido utilizando as tecnologias fundamentais da web — HTML5, CSS3 e JavaScript (ES6+) — para garantir uma experiência leve, rápida e totalmente responsiva. A estrutura reflete o meu compromisso com um código limpo e semântico, onde o HTML5 estabelece uma base sólida para acessibilidade e otimização em motores de busca (SEO). A estilização em CSS3 utiliza recursos modernos como Flexbox e CSS Variables para criar um design adaptável e fluido em qualquer dispositivo, enquanto o JavaScript assegura a interatividade através da manipulação do DOM, validações dinâmicas e efeitos visuais que elevam a experiência do utilizador.",
+    project0_description: "Esse próprio site, construído para ser simples de manter, rápido e de fácil leitura.",
+    project0_highlight: "Este projeto foi desenvolvido utilizando as tecnologias fundamentais da web — HTML5, CSS3 e JavaScript (ES6+) — para garantir uma experiência leve, rápida e totalmente responsiva.",
   
     project1_title: "Comparador de Faturas e Tarifas",
     project1_meta: "Projeto de estudo • 2026 • Em constante atualização",
     project1_description: "Uma aplicação para comparar faturas e tarifas de energia e gás, voltado a comerciais da empresa Gold Energy, para auxiliar na negociação de contratos e otimização de custos.",
-    project1_highlight: "Este projeto foi desenvolvido para praticar conceitos de programação e design de interfaces. Utiliza tecnologias modernas para criar uma experiência de usuário fluida e responsiva. Utiliza",
+    project1_highlight: "Este projeto foi desenvolvido para praticar conceitos de programação e design de interfaces. Utiliza tecnologias modernas para criar uma experiência de usuário fluida e responsiva.",
   
     project2_title: "Studio NM",
     project2_meta: "Projeto comercial • 2026",
     project2_description: "Landing Page SPA premium desenvolvida com React e Tailwind CSS, focada na conversão de agendamentos e na expressão da identidade visual sofisticada de uma marca de estética.",
-    project2_highlight: "Desenvolvimento de uma Landing Page responsiva em formato SPA (Single Page Application) para a Nail Designer Naila Macedo. O projeto foi arquitetado com foco total na conversão imediata, otimizando a captura de leads qualificados ao direcionar o usuário diretamente para o agendamento via WhatsApp com dados pré-tratados. A interface foi personalizada sob medida utilizando tokens de design específicos (tons de Bordô, Rose Gold e Off-White), unindo uma estética elegante e de alta costura a uma navegação fluida de alta performance."
+    project2_highlight: "Desenvolvimento de uma Landing Page responsiva em formato SPA (Single Page Application) para a Nail Designer Naila Macedo. O projeto foi arquitetado com foco total na conversão imediata."
   },
 
   en: {
@@ -177,7 +130,7 @@ const translations = {
 
     heroTag: "Full Stack Software Developer • With emphasis on Python, JavaScript, C, and SQL",
     heroTitle: "Hello, I'm <span class='highlight'>Cristiano Brasilio</span>.",
-    heroSubtitle: "Passionate about technology and constantly evolving technically. Combining my experience in leadership and operations with software engineering, I focus on creating scalable and results-oriented web applications. I develop robust solutions exploring diverse stacks, always with the goal of combining technical efficiency with business value.",
+    heroSubtitle: "Passionate about technology and constantly evolving technically.",
     btnProjects: "View projects",
     btnContact: "Get in touch",
     heroAvailable: "Available for opportunities.",
@@ -189,14 +142,15 @@ const translations = {
     cardStackTitle: "Main stacks",
 
     aboutTitle: "About me",
-    aboutP1: "I am a professional with a career path marked by the strategic transition from Civil Engineering and Operations Management to software development. Currently, I am pursuing a degree in Systems Analysis and Development, combining a specific analytical mindset with the ability to deliver technological solutions that generate a direct impact on the business.",
-    aboutP2: "Throughout my career, I have specialized in transforming operational challenges into efficiencies through code and data. As Station Manager at Drivalia, I led results-oriented teams, where I implemented Power BI monitoring systems that ensured inventory accuracy exceeding 98%. At Synergies, I independently developed a tool in Python and Flask to automate contract tracking for Gold Energy, resulting in a 15% increase in new business closing rates.",
-    aboutP3: "Regarding technical skills and results, I possess solid experience in developing Full Stack applications, having built a complete E-commerce platform with React and Flask focused on scalability and user experience (UX). I complement this profile with skills in automation and data, including the practical use of SQL and PostgreSQL to structure systems that manage data volumes exceeding 5000 users, and a high level of cultural adaptability supported by fluency in English (C1), which allows me to collaborate effectively in international environments and articulate solutions with technical and commercial stakeholders.",
-    aboutP4: "My motivation lies in applying the rigor of engineering to develop software that not only works, but also optimizes processes and boosts the productivity of organizations.",
+    aboutP1: "I am a professional with a career path marked by the strategic transition from Civil Engineering...",
+    aboutP2: "Throughout my career, I have specialized in transforming operational challenges into efficiencies...",
+    aboutP3: "Regarding technical skills and results, I possess solid experience in developing Full Stack applications...",
+    aboutP4: "My motivation lies in applying the rigor of engineering to develop software...",
 
     projectsTitle: "Featured projects",
-    projectsSubtitle: "In this section, I present a selection of projects where I apply engineering rigor and programming logic to solve real-world problems. My focus is on developing scalable Full Stack applications, automating processes, and extracting intelligence from data, transforming complex requirements into functional, results-oriented digital tools.",
+    projectsSubtitle: "In this section, I present a selection of projects where I apply engineering rigor...",
     projectsGitHubLink: "Code on GitHub",
+    projectsLiveLink: "Live Project", // Adicionado para tradução dinâmica
 
     skillsTitle: "Skills",
     skillsFullStack: "Full Stack",
@@ -220,25 +174,35 @@ const translations = {
     project0_title: "Personal Portfolio",
     project0_meta: "Personal project • 2025 • Constantly updated",
     project0_description: "This very website, built to be simple to maintain, fast and easy to read.",
-    project0_highlight: "This project was developed using fundamental web technologies — HTML5, CSS3, and JavaScript (ES6+) — to ensure a lightweight, fast, and fully responsive experience. The framework reflects my commitment to clean and semantic code, where HTML5 establishes a solid foundation for accessibility and search engine optimization (SEO). CSS3 styling utilizes modern features such as Flexbox and CSS Variables to create an adaptable and fluid design on any device, while JavaScript ensures interactivity through DOM manipulation, dynamic validations, and visual effects that enhance the user experience.",
+    project0_highlight: "This project was developed using fundamental web technologies — HTML5, CSS3, and JavaScript (ES6+) — to ensure a lightweight, fast, and fully responsive experience.",
   
     project1_title: "Invoice and Tariff Comparator",
     project1_meta: "Study project • 2026 • Constantly updated",
-    project1_description: "An application to compare energy and gas invoices and tariffs, aimed at salespeople of the company Gold Energy, to assist in contract negotiation and cost optimization.",
-    project1_highlight: "This project was developed to practice programming concepts and interface design. It uses modern technologies to create a smooth and responsive user experience.",
+    project1_description: "An application to compare energy and gas invoices and tariffs for Gold Energy salespeople, to assist in contract negotiation and cost optimization.",
+    project1_highlight: "This project was developed to practice programming concepts and interface design principles. It uses modern technologies to create a smooth and responsive user experience.",
   
     project2_title: "Studio NM",
     project2_meta: "Study project • 2026 • Constantly updated",
-    project2_description: "A premium SPA Landing Page developed with React and Tailwind CSS, focused on appointment conversion and expressing the sophisticated visual identity of a beauty brand.",
-    project2_highlight: "Development of a responsive Landing Page in SPA (Single Page Application) format for Nail Designer Naila Macedo. The project was architected with a total focus on immediate conversion, optimizing the capture of qualified leads by directing the user directly to scheduling via WhatsApp with pre-processed data. The interface was custom-designed using specific design tokens (Burgundy, Rose Gold, and Off-White tones), combining an elegant, high-fashion aesthetic with smooth, high-performance navigation.",
+    project2_description: "A premium SPA Landing Page developed with React and Tailwind CSS, focused on appointment conversion and expressing the sophisticated visual identity of an aesthetics brand.",
+    project2_highlight: "Development of a responsive Landing Page in SPA (Single Page Application) format for Nail Designer Naila Macedo. The project was architected with a total focus on immediate conversion."
   }
 };
 
+// Carrega os projetos manipulando dinamicamente o DOM de acordo com o idioma
 function loadProjects() {
   const grid = document.getElementById("projectsGrid");
+  if (!grid) return;
   grid.innerHTML = "";
 
   projects.forEach(p => {
+    // Avalia dinamicamente se o botão de liveUrl deve aparecer
+    const liveButtonHtml = (p.liveUrl && p.liveUrl !== "#" && p.liveUrl.trim() !== "") 
+      ? `<a href="${p.liveUrl}" class="project-link" target="_blank" rel="noreferrer">
+          <span>${translations[currentLang].projectsLiveLink}</span>
+          <span>↗</span>
+         </a>`
+      : "";
+
     grid.innerHTML += `
       <div class="project-card">
         <h3>${translations[currentLang][p.titleKey]}</h3>
@@ -251,10 +215,11 @@ function loadProjects() {
         </div>
 
         <div class="project-links">
-        <a href="${p.repoUrl}" class="project-link" target="_blank" rel="noreferrer">
-          <span>${translations[currentLang].projectsGitHubLink}</span>
-          <span>↗</span>
-        </a>
+          ${liveButtonHtml}
+          <a href="${p.repoUrl}" class="project-link" target="_blank" rel="noreferrer">
+            <span>${translations[currentLang].projectsGitHubLink}</span>
+            <span>↗</span>
+          </a>
         </div>
       </div>
     `;
@@ -266,12 +231,13 @@ function changeLanguage(lang) {
 
   document.querySelectorAll("[data-translate]").forEach(el => {
     const key = el.getAttribute("data-translate");
-    el.innerHTML = translations[lang][key];
+    if (translations[lang][key]) {
+      el.innerHTML = translations[lang][key];
+    }
   });
 
   loadProjects();
 
-  // Mostra a bandeira do idioma para o qual vai mudar
   document.getElementById("lang-toggle").textContent =
     lang === "pt" ? "🇺🇸" : "🇵🇹";
 }
