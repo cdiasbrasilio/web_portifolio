@@ -142,13 +142,13 @@ const translations = {
     cardStackTitle: "Main stacks",
 
     aboutTitle: "About me",
-    aboutP1: "I am a professional with a career path marked by the strategic transition from Civil Engineering...",
-    aboutP2: "Throughout my career, I have specialized in transforming operational challenges into efficiencies...",
-    aboutP3: "Regarding technical skills and results, I possess solid experience in developing Full Stack applications...",
-    aboutP4: "My motivation lies in applying the rigor of engineering to develop software...",
+    aboutP1: "I am a professional with a career path marked by the strategic transition from Civil Engineering and Operations Management to software development. Currently, I am pursuing a degree in Systems Analysis and Development, combining a specific analytical mindset with the ability to deliver technological solutions that have a direct impact on business.",
+    aboutP2: "Throughout my career, I have specialized in transforming operational challenges into efficiencies through code and data. As a Station Manager at Drivalia, I led results-focused teams, where I implemented Power BI monitoring systems that ensured inventory accuracy above 98%. At Synergies, I independently developed a tool in Python and Flask to automate the tracking of Gold Energy contracts, resulting in a 15% increase in the closing rate of new business.",
+    aboutP3: "Regarding technical skills and results, I possess solid experience in developing Full Stack applications and have built a complete E-commerce platform with React and Flask focused on scalability and user experience (UX). I complement this profile with skills in automation and data, including practical use of SQL and PostgreSQL to structure systems that manage data volumes exceeding 5000 users, and a high cultural adaptability supported by fluency in English (C1), which allows me to collaborate effectively in international environments and articulate solutions with technical and business stakeholders.",
+    aboutP4: "My motivation lies in applying the rigor of engineering to develop software that not only works but optimizes processes and drives organizational productivity.",
 
     projectsTitle: "Featured projects",
-    projectsSubtitle: "In this section, I present a selection of projects where I apply engineering rigor...",
+    projectsSubtitle: "In this section, I present a selection of projects where I apply engineering rigor and programming logic to solve real problems. My focus lies in developing scalable Full Stack applications, automating processes, and extracting intelligence from data, transforming complex requirements into functional and results-oriented digital tools.",
     projectsGitHubLink: "Code on GitHub",
     projectsLiveLink: "Live Project", // Adicionado para tradução dinâmica
 
